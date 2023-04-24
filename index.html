@@ -8,35 +8,41 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    
-    <div class="table"> 
-
-        <div class="column bold"> 
-            <div class="row">Categoría</div> 
-            <div class="row big">Formulario</div> 
-            <div class="row big">Tabla</div> 
-            <div class="row bigger">Texto</div> 
-        </div> 
-
-        <div class="column"> 
-            <div class="row bold">Etiquetas</div> 
-            <div class="row">form</div> 
-            <div class="row">button</div> 
-            <div class="row">input</div> 
-            <div class="row">select</div> 
-            <div class="row">textarea</div> 
-            <div class="row">table</div> 
-            <div class="row">tr</div> 
-            <div class="row">th</div> 
-            <div class="row">td</div> 
-            <div class="row">caption</div> 
-            <div class="row">b</div> 
-            <div class="row">em</div> 
-            <div class="row">i</div> 
-            <div class="row">strong</div> 
-            <div class="row">sub</div> 
-            <div class="row">sup</div> 
-        </div> 
+    <table>
+        <thead>
+            <tr>
+                <th>Categoría</th>
+                <th>Etiquetas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5" class="bold">Formulario</td>
+                <td>form</td>
+            </tr>
+            <tr><td>button</td></tr>
+            <tr><td>input</td></tr>
+            <tr><td>select</td></tr>
+            <tr><td>textarea</td></tr>
+            <tr>
+                <td rowspan="5" class="bold">Tabla</td>
+                <td>table</td>
+            </tr>
+            <tr><td>tr</td></tr>
+            <tr><td>th</td></tr>
+            <tr><td>td</td></tr>
+            <tr><td>caption</td></tr>
+            <tr>
+                <td rowspan="6" class="bold">Texto</td>
+                <td>b</td>
+            </tr>
+            <tr><td>em</td></tr>
+            <tr><td>i</td></tr>
+            <tr><td>strong</td></tr>
+            <tr><td>sub</td></tr>
+            <tr><td>sup</td></tr>
+        </tbody>
+    </table>
 
 </body>
 </html>

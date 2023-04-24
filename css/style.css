@@ -1,0 +1,29 @@
+* { 
+    box-sizing: border-box; 
+  } 
+.table, .row{
+    border: 2px solid black;
+}
+.table{ 
+    display:grid; 
+    display:inline-flex;
+} 
+.row{ 
+    width:83px; 
+    height: 25px; 
+    margin:1px;
+} 
+.big{ 
+    height: 129px; 
+}
+.bigger{ 
+    height: 155px; 
+}
+.bold{
+    font-weight: bold;
+    text-align: center;
+    
+}
+ 
+
+ 
